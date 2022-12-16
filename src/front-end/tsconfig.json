@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react",    
+    "strict": true,
+    "alwaysStrict": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "back-end/**/*",
+    "front-back-common/**/*",
+    "lwm2m-ipc-client/**/*"
+  ],
+  "exclude": [
+    "front-end/**/*",
+    "build/**/*",
+    "node_modules",
+    "public/**/*",
+    "babel.config.js",
+    "prettier.config.js",
+    "webpack.config.dev.js",
+    "webpack.config.prod.js"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react",    
+    "strict": true,
+    "alwaysStrict": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [    
+    "build/**/*",
+    "node_modules",
+    "prettier.config.js"
+  ]
+}
